@@ -1,15 +1,15 @@
 {
-    "name": "New Controls",
+    "name": "playerInput",
     "maps": [
         {
             "name": "PlayerControls",
             "id": "a351dbcd-f896-46ee-a49a-bca457b3ada2",
             "actions": [
                 {
-                    "name": "New action",
-                    "type": "Value",
+                    "name": "Run",
+                    "type": "Button",
                     "id": "fd7e391f-9e68-4aa5-81dc-eca2852271c6",
-                    "expectedControlType": "Stick",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -18,12 +18,12 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "072a48c3-7ce4-4d6d-b3d6-827aa05be2f9",
-                    "path": "",
-                    "interactions": "",
+                    "id": "599b120d-0170-4815-8f33-a70a01b3c167",
+                    "path": "<XInputController>/buttonEast",
+                    "interactions": "Press",
                     "processors": "",
                     "groups": "",
-                    "action": "New action",
+                    "action": "Run",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
